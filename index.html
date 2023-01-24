@@ -15,9 +15,15 @@
     <!-- ----------Cabeçalho do site----------- -->
     <header class="cabecalho">
         <div class="container">
-            <h1 class="container-titulo"><b class="container-titulo--negrito">Isaac</b>Andrade</h1>
-            <ul class="lista-menu showMenu">
-                <li class="lista-menu-item">
+            <a href="#" class="container-titulo"><b class="container-titulo--negrito">Isaac</b>Andrade</a>
+        </div>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container-botao">
+            <label for="menu" class="container-rotulo">
+                <span class="menuIcon"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-item"  id="borda1">
                     <a href="#" class="lista-menu-link">Sobre</a>
                 </li>
                 <li class="lista-menu-item">
@@ -26,21 +32,16 @@
                 <li class="lista-menu-item">
                     <a href="#" class="lista-menu-link">Projetos</a>
                 </li>
-            </ul>
-            <ul class="lista-redes">
                 <li class="lista-redes-item">
                     <img src="./images/linkedin (1) 1.svg" alt="Logo Linkedin" class="logo-redes">
                     <a href="#" class="lista-redes-link">Linkedin</a>
                 </li>
-                <li class="lista-redes-item">
+                <li class="lista-redes-item" id="borda2">
                     <img src="./images/github (1) 2.svg" alt="Logo Github" class="logo-redes">
                     <a href="#" class="lista-redes-link">Github</a>
                 </li>
-                <button type="submit" class="botao-contato">Contate me</button>
+
             </ul>
-            <button class="hamburguer">
-                <i class="menuIcon material-icons">menu</i>
-            </button>
         </div>
     </header>
     <script src="./js/menu.js"></script>

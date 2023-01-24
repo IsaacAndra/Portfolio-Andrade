@@ -1,25 +1,93 @@
-
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-}
-
-.lista-menu {
-    display: none;
-}
-
-.lista-redes {
-    display: none;
+    padding: .7em;
 }
 
 .container-titulo {
-    font-size: 20px;
+    font-size: 23px;
     color: var(--cor-principal);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .container-titulo--negrito {
     color: var(--cor-cinza-escuro);
+}
+
+.menuIcon {
+    width:42px;
+    height: 42px;
+    background-image: url(../images/icons8-xbox-menu-42\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.lista-menu {
+
+    display: none;
+    position: absolute;
+    left: 70%;
+    top: 7%;
+}
+
+.container-botao:checked~.lista-menu {
+    display: block;
+}
+
+.container-botao:checked~.container-rotulo>.menuIcon {
+    background-image: url(../images/icons8-xbox-menu-42.png);
+}
+
+.container-botao {
+    display: none;
+}
+
+.lista-menu-item {
+    padding: 1em;
+    background-color: var(--cor-menu-nav);
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.lista-menu-link {
+    background: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.lista-redes-item {
+    display: flex;
+    padding: 1em;
+    background-color: var(--cor-menu-nav);
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lista-redes-link {
+    background: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#borda1{
+    border-top-left-radius: 30px;
+}
+
+#borda2{
+    border-bottom-left-radius: 30px;
+}
+
+.logo-redes {
+    width: 20px;
 }
