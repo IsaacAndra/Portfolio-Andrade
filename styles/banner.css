@@ -1,0 +1,62 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.banner-imagem {
+    display: none;
+}
+
+.banner-descricao {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.euSou{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.banner-descricao-titulo {
+    font-size: 2.1em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 51px;
+    color: var(--cor-secundaria);
+}
+
+.banner-descricao-stack {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.experiencia-texto {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.experiencia-anos {
+    font-size: 2.6em;
+    color: var(--cor-cinza-escuro);
+}

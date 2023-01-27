@@ -1,9 +1,12 @@
 @import url('../styles/reset.css');
 @import url('../styles/header.css');
+@import url('../styles/banner.css');
 
 :root {
-    --cor-cinza-escuro: #828282;
+    --cor-cinza: #828282;
+    --cor-cinza-escuro: #4F4F4F;
     --cor-principal: #E0E0E0;
+    --cor-secundaria: #70FF00;
     --cor-menu-nav: #272727;
     --font-principal: 'Roboto', 'sans-serif';
     --cor-caixa: linear-gradient(rgba(112, 255, 0, 0.55),
