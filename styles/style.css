@@ -2,6 +2,7 @@
 @import url('../styles/header.css');
 @import url('../styles/banner.css');
 @import url('../styles/about.css');
+@import url('../styles/skills.css');
 
 :root {
     --cor-cinza: #828282;
