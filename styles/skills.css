@@ -2,12 +2,19 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content:flex-start;
-    align-items:center;
+    justify-content: center;
+    text-align: center;
     width: 100vw;
-    height: 300px;
+    height: 150px;
     background: #161616;
     gap: 16px;
+}
+
+.habilidades-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
 }
 
 .habilidades-logo {
@@ -16,7 +23,9 @@
 }
 
 .habilidades-titulo {
+    position: relative;
     font-size: 1.5em;
     font-weight: 700;
     color: var(--cor-secundaria);
+    bottom: 20px;
 }
