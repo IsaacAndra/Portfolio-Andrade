@@ -75,7 +75,7 @@
     flex-wrap: wrap;
 }
 
-.lista-redes-email {
+.header-email {
     display: none;
 }
 
@@ -143,7 +143,7 @@
 
 @media screen and (min-width: 1024px) {
     .cabecalho {
-        max-width: 2560px;
+        max-width: 1440px;
         margin: auto;
     }
 
@@ -152,7 +152,7 @@
     }
 
     .container-titulo {
-        font-size: 2.2em;
+        font-size: 3em;
         transition: .2s;
     }
 

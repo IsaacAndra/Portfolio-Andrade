@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     width: 100vw;
-    height: 400px;
+    height: 50vh;
     background: #161616;
     gap: 16px;
 }
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 768px) {
     .habilidades {
-        height: 100vh;
+        height: 110vh;
         justify-content:center;
     }
 

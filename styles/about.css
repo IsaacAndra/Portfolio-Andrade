@@ -1,9 +1,9 @@
 .sobre {
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin-bottom: 40px;
 }
 
 .sobre-descricao {
@@ -48,6 +48,12 @@
     max-width: 300px;
 }
 
+.sobre-container-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .sobre-container-itens {
     display: flex;
     flex-direction: column;
@@ -75,6 +81,7 @@
 
 @media screen and (min-width: 768px) {
     .sobre {
+        height: 40vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -139,7 +146,7 @@
     }
 
     .sobre-container {
-        padding: 50px;
+        padding: 30px;
         transition: .2s;
     }
 
