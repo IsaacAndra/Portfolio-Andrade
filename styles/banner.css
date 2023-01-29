@@ -7,12 +7,11 @@
     flex-wrap: wrap;
 }
 
-.banner-imagem {
+.banner-imagem-self {
     display: none;
 }
 
 .banner-descricao {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -59,4 +58,56 @@
 .experiencia-anos {
     font-size: 2.6em;
     color: var(--cor-cinza-escuro);
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: initial;
+    }
+
+    .experiencia {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .banner-imagem-self {
+        display: block;
+        width: 320px;
+        height: 320px;
+    }
+
+    .banner-descricao {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .euSou{
+        font-size: 1.7em;
+        font-weight: 700;
+        color: var(--cor-principal);
+    }
+
+    .banner-descricao-titulo {
+        text-align: start;
+        font-size: 2.7em;
+    }
+
+    .banner-descricao-stack {
+        font-size: 1.8em;
+    }
+
+    .experiencia-texto {
+        font-size: 1em;
+    }
+
+    .experiencia-anos {
+        font-size: 2.8em;
+    }
 }
