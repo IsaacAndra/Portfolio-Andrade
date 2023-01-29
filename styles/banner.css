@@ -116,7 +116,6 @@
     .banner {
         max-width: 1440px;
         align-items: center;
-        width: 1024px;
         margin: auto;
         justify-content: space-between;
     }
