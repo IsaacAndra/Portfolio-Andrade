@@ -142,6 +142,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho {
+        max-width: 1440px;
+        margin: auto;
+    }
 
     .lista-redes-email {
         display: block;
