@@ -102,7 +102,9 @@
 
     .sobre-descricao-texto {
         text-align: start;
-        font-size: 1em;
+        font-size: .8em;
+        line-height: 20px;
+        width: 400px;
     }
 
     .sobre-container-titulo {
@@ -122,6 +124,7 @@
 @media screen and (min-width: 1024px) {
     .sobre {
         max-width: 1440px;
+        height: 40vh;
         margin: auto;
     }
 
