@@ -21,7 +21,7 @@
 
 .swiper-slide img {
     align-self: center;
-    width: 300px;
+    width: 100px;
     border: 1px solid transparent;
     border-radius: 10px;
 }
@@ -68,5 +68,23 @@
     
     .swiper-slide img {
         width: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel {
+        max-width: 1440px;
+        margin: auto;
+        height: 40vh;
+    }
+
+    .swiper-slide img {
+        width: 300px;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        justify-content: center;
+        max-width: 300px;
+        display: block;
     }
 }
