@@ -1,5 +1,4 @@
 .sobre {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,4 +71,52 @@
 .sobre-container-logo {
     width: 25px;
     height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 90px;
+        margin-bottom: 0;
+    }
+
+    .sobre-container {
+        padding: 20px;
+    }
+    
+    .sobre-container-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sobre-descricao {
+        align-items: flex-start;
+    }
+
+    .sobre-descricao-titulo {
+    font-size: 1.8em;
+}
+
+    .sobre-descricao-texto {
+        text-align: start;
+        font-size: 1em;
+    }
+
+    .sobre-container-titulo {
+    font-size: 1.1em;
+}
+
+.sobre-container-link {
+    font-size: .9em;
+}
+
+.sobre-container-logo {
+    width: 35px;
+    height: 35px;
+}
+
+
 }
