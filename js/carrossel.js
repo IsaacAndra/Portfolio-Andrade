@@ -1,7 +1,20 @@
 const swiper = new Swiper('.swiper', {
-    speed: 400,
+    breakpoints: {
+    390: {
     slidesPerView: 1,
     spaceBetween: 5,
+    },
+
+    768: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        },
+
+    1024: {
+        slidesPerView: 4,
+        spaceBetween: 300,
+    }
+    },
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -13,4 +26,5 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 5000,
       },
+    
 });

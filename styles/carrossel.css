@@ -49,3 +49,17 @@
     position: initial;
     margin: .5em 0;
 }
+
+@media screen and (min-width: 768px) {
+    .carrossel-titulo {
+        font-size: 2em;
+    }
+
+    .swiper-link {
+        font-size: 1.3em;
+    }
+    
+    .swiper-slide img {
+        width: 350px;
+    }
+}
