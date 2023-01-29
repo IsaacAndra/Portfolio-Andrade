@@ -23,3 +23,15 @@
     background: var(--bg-body);
     border-radius: 10px;
 }
+
+@media  screen and (min-width: 768px) {
+    .rodape {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .rodape-texto {
+        font-size: 1em;
+    }
+}

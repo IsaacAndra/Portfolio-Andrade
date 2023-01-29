@@ -1,6 +1,7 @@
 .carrossel {
+    display: block;
     text-align: center;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .carrossel-container {
@@ -51,6 +52,12 @@
 }
 
 @media screen and (min-width: 768px) {
+    .carrossel {
+        width: 100vw;
+        height: 85vh;
+        margin: 50px 0 0 0;
+    }
+    
     .carrossel-titulo {
         font-size: 2em;
     }
