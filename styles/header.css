@@ -11,6 +11,7 @@
 
 .container-titulo {
     font-size: 23px;
+    font-weight: 700;
     color: var(--cor-principal);
     text-transform: uppercase;
     text-decoration: none;
@@ -58,6 +59,7 @@
 }
 
 .lista-menu-link {
+    font-weight: 700;
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -74,6 +76,7 @@
 }
 
 .lista-redes-link {
+    font-weight: 700;
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -90,4 +93,37 @@
 
 .logo-redes {
     width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        justify-content: space-around;
+    }
+
+    .lista-menu {
+        display: flex;
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+
+    .lista-menu-item {
+        display: flex;
+        flex-direction: row;
+        background: none;
+    }
+
+    .lista-redes-item {
+        background: none;
+    }
+
+    .lista-menu-link {
+        position: relative;
+        display: flex;left: 0%;
+        top: 0%;
+    }
+
+    .menuIcon{
+        display: none;
+    }
 }
