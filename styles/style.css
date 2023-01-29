@@ -4,6 +4,7 @@
 @import url('../styles/about.css');
 @import url('../styles/skills.css');
 @import url('../styles/carrossel.css');
+@import url('./footer.css');
 
 :root {
     --cor-cinza: #828282;
