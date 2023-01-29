@@ -1,0 +1,52 @@
+.carrossel {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.carrossel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.carrossel-titulo {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+.swiper-slide img {
+    align-self: center;
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.swiper-link {
+    transition: .2s;
+    font-size: 1em;
+    font-family: var(--font-secundaria);
+    color: var(--cor-principal);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.breve {
+    opacity: .5;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}

@@ -3,7 +3,7 @@
 @import url('../styles/banner.css');
 @import url('../styles/about.css');
 @import url('../styles/skills.css');
-@import url('../styles/projects.css');
+@import url('../styles/carrossel.css');
 
 :root {
     --cor-cinza: #828282;
@@ -18,6 +18,10 @@
     --bg-body: linear-gradient(to top right, #000000 0%, 
     #272727 44.03%, #494949 99.99%, #727272 100%); 
     --bg-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

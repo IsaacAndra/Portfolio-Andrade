@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/styles/style.css">
     <title>Isaac Andrade - Portfólio</title>
 </head>
@@ -25,13 +26,13 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu-item"  id="borda1">
-                    <a href="#" class="lista-menu-link">Sobre</a>
+                    <a href="#sobre" class="lista-menu-link">Sobre</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Habilidades</a>
+                    <a href="#habilidades" class="lista-menu-link">Habilidades</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Projetos</a>
+                    <a href="#projetos" class="lista-menu-link">Projetos</a>
                 </li>
                 <li class="lista-redes-item">
                     <img src="./images/linkedin (1) 1.svg" alt="Logo Linkedin" class="logo-redes">
@@ -66,7 +67,7 @@
     </main>
 
     <!-- ----------Seção Sobre mim----------- -->
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <div class="sobre-descricao">
             <h1 class="sobre-descricao-titulo">sobreMim<span class="sobre-descricao-func">( )</span></h1>
             <p class="sobre-descricao-texto">Lorem ipsum dolor sit amet, 
@@ -93,7 +94,7 @@
     </section>
 
     <!-- ----------Seção de Habilidades----------- -->
-    <section class="habilidades">
+    <section class="habilidades" id="habilidades">
         <h1 class="habilidades-titulo">habilidades<span class="sobre-descricao-func">( )</span></h1>
         <div class="habilidades-itens">
             <img src="./images/javascript-original 1.svg" alt="Logo Javascript" class="habilidades-logo">
@@ -104,9 +105,63 @@
             <img src="./images/nodejs-original 1.svg" alt="Logo NodeJs" class="habilidades-logo">
         </div>
     </section>
-    <section class="projetos">
-        
+
+    <!-- ----------Seção de Projetos----------- -->
+    <section class="carrossel" id="projetos">
+        <h1 class="carrossel-titulo">Projetos<span class="sobre-descricao-func">( )</span></h1>
+        <div class="carrossel__container">
+            <div class="swiper">
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+              <!-- Slides -->
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link" href="#">Projeto Portfólio
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link breve" href="#">Em breve
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link breve" href="#">Em breve
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link breve" href="#">Em breve
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link breve" href="#">Em breve
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <a class="swiper-link breve" href="#">Em breve
+                        <img src="./images/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Em breve">
+                    </a>
+                </div>
+            </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+          
+            </div>
     </section>
 
+    <footer class="rodape">
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/carrossel.js"></script>
 </body>
 </html>
