@@ -28,8 +28,6 @@ html {
 body {
     margin: auto;
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
     background: var(--bg-body);
     font-family: var(--font-principal);
     overflow-x: hidden;
