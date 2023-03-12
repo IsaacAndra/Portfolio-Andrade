@@ -13,7 +13,7 @@ Aqui você pode ver exemplos de meu trabalho, conhecer minhas habilidades, enten
 - JavaScript
 
 ## Como usar
-1. Acesse o site em [Portifólio](https://portfolio-andrade.vercel.app/).
+1. Acesse o site em [Portifólio](https://isaacandrade.com).
 2. Explore as seções "Projetos", "Habilidades" e "Sobre".
 4. Entre em contato através do link "Contato".
 
